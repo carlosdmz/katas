@@ -19,5 +19,6 @@ int main(int argc, const char **argv) {
 
     printf("\nword: %s\nreversed: %s\n", word, start);
 
+    free(start);
     return 0;
 }
